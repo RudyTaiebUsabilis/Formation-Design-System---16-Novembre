@@ -64,6 +64,7 @@ Déclenche une action immédiate sur la page ou dans un formulaire.
 **Utiliser quand :**
 
 - **Action principale (`default`)** : l'utilisateur valide l'étape en cours (envoyer, enregistrer, continuer). Une seule par zone (formulaire, carte, modale), car l'œil doit trouver tout de suite l'action attendue.
+- nouveauté
 - **Action secondaire (`secondary` ou `outline`)** : l'action accompagne l'action principale (annuler, retour, brouillon). Placez-la à gauche de l'action principale, car l'ordre de lecture doit rester le même sur tous les écrans.
 - **Action à faible poids (`ghost`)** : l'action est fréquente mais ne doit pas attirer l'œil (barre d'outils, en-tête de carte, filtre). Toujours avec un libellé visible, car sans fond rien n'indique sinon qu'on peut cliquer.
 - **Action irréversible (`destructive`)** : l'action supprime ou révoque une donnée (supprimer un compte, retirer un membre). Toujours suivie d'une confirmation, car le style rouge prévient mais n'empêche pas l'erreur.
