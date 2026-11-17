@@ -18,6 +18,8 @@ props:
   - { name: children, type: node }
 states: [default, hover, focus, disabled]
 tokens:
+  - color.bg.default
+  - color.bg.primary
   - color.bg.primary-hover
   - color.bg.secondary
   - color.bg.secondary-hover
