@@ -5,7 +5,7 @@
       "default": {
         "$type": "color",
         "$value": "{color.neutral.950}",
-        "$description": "Fond de page et des surfaces neutres."
+        "$description": "de page et des surfaces neutres."
       },
       "muted": {
         "$type": "color",
