@@ -1,0 +1,168 @@
+{
+  "$description": "Tokens sémantiques — mode Light. Toujours utiliser ces tokens dans les composants.",
+  "color": {
+    "bg": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.base.white}",
+        "$description": "Fond de page et des surfaces neutres."
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{color.neutral.100}",
+        "$description": "Fond discret : zones secondaires, éléments inactifs."
+      },
+      "primary": {
+        "$type": "color",
+        "$value": "{color.neutral.900}",
+        "$description": "Fond de l'action principale."
+      },
+      "primary-hover": {
+        "$type": "color",
+        "$value": "{color.neutral.700}",
+        "$description": "Fond de l'action principale au survol."
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.neutral.100}",
+        "$description": "Fond d'une action secondaire."
+      },
+      "secondary-hover": {
+        "$type": "color",
+        "$value": "{color.neutral.200}",
+        "$description": "Fond d'une action secondaire au survol."
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "{color.neutral.100}",
+        "$description": "Fond de survol des éléments sans fond (outline, ghost, menus)."
+      },
+      "destructive": {
+        "$type": "color",
+        "$value": "{color.red.600}",
+        "$description": "Fond d'une action irréversible."
+      },
+      "destructive-hover": {
+        "$type": "color",
+        "$value": "{color.red.700}",
+        "$description": "Fond d'une action irréversible au survol."
+      },
+      "input": {
+        "$type": "color",
+        "$value": "{color.alpha.transparent}",
+        "$description": "Fond d'un champ de saisie."
+      }
+    },
+    "text": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.neutral.950}",
+        "$description": "Texte principal."
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{color.neutral.500}",
+        "$description": "Texte secondaire : aides, légendes, placeholders."
+      },
+      "on-primary": {
+        "$type": "color",
+        "$value": "{color.neutral.50}",
+        "$description": "Texte posé sur bg.primary."
+      },
+      "on-secondary": {
+        "$type": "color",
+        "$value": "{color.neutral.900}",
+        "$description": "Texte posé sur bg.secondary."
+      },
+      "on-accent": {
+        "$type": "color",
+        "$value": "{color.neutral.900}",
+        "$description": "Texte posé sur bg.accent."
+      },
+      "on-destructive": {
+        "$type": "color",
+        "$value": "{color.base.white}",
+        "$description": "Texte posé sur bg.destructive."
+      },
+      "link": {
+        "$type": "color",
+        "$value": "{color.neutral.900}",
+        "$description": "Texte d'un lien."
+      },
+      "error": {
+        "$type": "color",
+        "$value": "{color.red.600}",
+        "$description": "Message d'erreur."
+      }
+    },
+    "icon": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.neutral.950}",
+        "$description": "Icône principale."
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{color.neutral.500}",
+        "$description": "Icône secondaire."
+      },
+      "on-primary": {
+        "$type": "color",
+        "$value": "{color.neutral.50}",
+        "$description": "Icône posée sur bg.primary."
+      },
+      "on-secondary": {
+        "$type": "color",
+        "$value": "{color.neutral.900}",
+        "$description": "Icône posée sur bg.secondary."
+      },
+      "on-accent": {
+        "$type": "color",
+        "$value": "{color.neutral.900}",
+        "$description": "Icône posée sur bg.accent."
+      },
+      "on-destructive": {
+        "$type": "color",
+        "$value": "{color.base.white}",
+        "$description": "Icône posée sur bg.destructive."
+      },
+      "link": {
+        "$type": "color",
+        "$value": "{color.neutral.900}",
+        "$description": "Icône d'un lien."
+      }
+    },
+    "strokes": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.neutral.200}",
+        "$description": "Contour et séparateur par défaut."
+      },
+      "input": {
+        "$type": "color",
+        "$value": "{color.neutral.200}",
+        "$description": "Contour d'un champ de saisie."
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "{color.neutral.400}",
+        "$description": "Contour d'un élément au focus clavier."
+      },
+      "focus-ring": {
+        "$type": "color",
+        "$value": "{color.alpha.neutral-400-50}",
+        "$description": "Anneau de focus (3 px)."
+      },
+      "error": {
+        "$type": "color",
+        "$value": "{color.red.600}",
+        "$description": "Contour d'un champ en erreur."
+      },
+      "error-ring": {
+        "$type": "color",
+        "$value": "{color.alpha.red-600-20}",
+        "$description": "Anneau de focus d'un élément en erreur ou destructif."
+      }
+    }
+  }
+}
