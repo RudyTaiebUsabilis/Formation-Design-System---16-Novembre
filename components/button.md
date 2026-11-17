@@ -21,7 +21,6 @@ tokens:
   - color.bg.primary-hover
   - color.bg.secondary
   - color.bg.secondary-hover
-  - color.bg.accent
   - color.bg.destructive
   - color.bg.destructive-hover
   - color.text.default
